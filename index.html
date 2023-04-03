@@ -1,0 +1,1695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test task</title>
+    <meta name="description" content="Some description">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;400;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.css"
+          integrity="sha512-ZOhNKDt0whrHDdUeNKjuq2C8hturzwCSuCfrOIMIfy9QDgpSqDEebdkGQXvXh1xHmZOHSelDBrTLj6XlqbHz6g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="/dist/css/app.min.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="/image/logo.svg" alt="Logo">
+    </div>
+    <nav class="navbar">
+        <button class="navbar-toggle" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Music</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Radio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Playlists</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="right-panel">
+        <div class="search"></div>
+        <div class="notification"></div>
+    </div>
+</header>
+<div class="sidebar">
+    <div class="container">
+        <div class="profile">
+            <div class="profile-info">
+                <img src="/image/avatar.svg" alt="Avatar" class="avatar">
+                <span class="name">Hi, Jonah</span>
+            </div>
+            <button class="profile-btn"></button>
+        </div>
+        <ul class="sidebar-list">
+            <li class="list-item">
+                <a href="#">
+                    <span class="icon favorites"></span>
+                    <span class="item-name">Favorites</span>
+                </a>
+            </li>
+            <li class="list-item dropdown">
+                <a href="#">
+                    <span class="icon pages"></span>
+                    <span class="item-name">Pages</span>
+                </a>
+                <button class="dropdown-btn"></button>
+            </li>
+            <li class="list-item">
+                <a href="#">
+                    <span class="icon band"></span>
+                    <span class="item-name">Band</span>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="#">
+                    <span class="icon band"></span>
+                    <span class="item-name">Band</span>
+                </a>
+            </li>
+            <li class="list-item">
+                <a href="#">
+                    <span class="icon history"></span>
+                    <span class="item-name">History</span>
+                </a>
+            </li>
+            <li class="list-item dropdown">
+                <a href="#">
+                    <span class="icon playlist"></span>
+                    <span class="item-name">Playlists</span>
+                </a>
+                <button class="dropdown-btn"></button>
+            </li>
+        </ul>
+        <ul class="music-album">
+            <li class="music-album-item">
+                <a href="#">
+                    <img src="/image/album1.svg" alt="album image">
+                    <span class="item-name">Workout music</span>
+                </a>
+            </li>
+            <li class="music-album-item">
+                <a href="#">
+                    <img src="/image/album2.svg" alt="album image">
+                    <span class="item-name">The Rush</span>
+                </a>
+            </li>
+            <li class="music-album-item">
+                <a href="#">
+                    <img src="/image/album3.svg" alt="album image">
+                    <span class="item-name">Kill'em all</span>
+                </a>
+            </li>
+            <li class="music-album-item">
+                <a href="#">
+                    <img src="/image/album4.svg" alt="album image">
+                    <span class="item-name">DejaVue</span>
+                </a>
+            </li>
+            <li class="music-album-item">
+                <a href="#">
+                    <img src="/image/album5.svg" alt="album image">
+                    <span class="item-name">Momentum</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="playlist-container">
+    <div class="nav-playlist">
+        <button class="nav-link active" id="playing-tab">Now Playing</button>
+        <button class="nav-link" id="suggested-tab">Suggested</button>
+    </div>
+    <div class="tab-playlist-content active" id="playing-content">
+        <ul class="playlist">
+            <li class="playlist-item playing">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Lose Yourself</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Love The Way You Lie</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Mockingbird</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Venom</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Love The Way You Lie</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Mockingbird</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Venom</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Love The Way You Lie</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Mockingbird</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Venom</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Love The Way You Lie</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Mockingbird</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <img src="/image/Eminem.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Venom</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-playlist-content" id="suggested-content">
+        ...
+    </div>
+</div>
+<main>
+    <section id="home-top-slider">
+        <div class="swiper-container slider-top">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-box">
+                        <div class="slide-info">
+                            <p>This week's new releases</p>
+                            <h2>Donda</h2>
+                            <p>Kanye West</p>
+                        </div>
+                        <div class="slide-img">
+                            <img src="/image/Kanye-West_2016_P1.png" alt="Kanye West">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-box">
+                        <div class="slide-info">
+                            <p>This week's new releases</p>
+                            <h2>Unnamed</h2>
+                            <p>Unnamed</p>
+                        </div>
+                        <div class="slide-img">
+                            <img src="/image/slider1-top.jpg" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-box">
+                        <div class="slide-info">
+                            <p>This week's new releases</p>
+                            <h2>Formidable</h2>
+                            <p>Stromae</p>
+                        </div>
+                        <div class="slide-img">
+                            <img src="/image/stromae.jpg" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-box">
+                        <div class="slide-info">
+                            <p>This week's new releases</p>
+                            <h2>Hold My Hand</h2>
+                            <p>Lady Gaga</p>
+                        </div>
+                        <div class="slide-img">
+                            <img src="/image/ladygaga.jpg" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-box">
+                        <div class="slide-info">
+                            <p>This week's new releases</p>
+                            <h2>Bad Guy</h2>
+                            <p>Billie Eilish</p>
+                        </div>
+                        <div class="slide-img">
+                            <img src="/image/eilish.jpg" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-container slider-thumbs">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="/image/Kanye-West_2016_P1.png" alt="Kanye West thumb">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/image/slider1.png" alt="image thumb">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/image/slider2.png" alt="image thumb">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/image/slider3.png" alt="image thumb">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/image/slider4.png" alt="image thumb">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="music-genre">
+        <div class="title-box">
+            <h3 class="title">Music By Genre</h3>
+        </div>
+        <ul class="music-genre-list">
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link rap">RAP</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link rock">Rock</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link soul">R&B and soul</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link jazz">Jazz</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link blues">Blues</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link indie">Indie</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link reggae">Reggae</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link country">Country</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link soundtrack">Soundtrack</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link holiday">Holiday</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link children">Children's Music</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link classic">Classical</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link dance">Dance & electronic</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link pop">Pop</a>
+            </li>
+            <li class="music-genre-list-item">
+                <a href="#" class="music-genre-list-item-link world">World</a>
+            </li>
+        </ul>
+    </section>
+    <section id="listen-again" class="section-playlist">
+        <div class="title-box">
+            <h3 class="title">Listen Again</h3>
+            <h4 class="sub-title">Listen your favorite songs again</h4>
+        </div>
+        <ul class="playlist">
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">01</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Lose Yourself</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">02</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Love The Way You Lie</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">03</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Mockingbird</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">04</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Venom</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">05</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Love The Way You Lie</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">06</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Mockingbird</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">07</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Venom</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">08</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Love The Way You Lie</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">09</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Mockingbird</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item show-more">
+                <button class="show-more-btn" type="button"><span class="show-more-icon"></span>Show 41 more tracks
+                </button>
+            </li>
+        </ul>
+    </section>
+    <section id="new-albums" class="section-albums">
+        <div class="title-box">
+            <h3 class="title">New Released Albums</h3>
+            <h4 class="sub-title">Month's top albums on Imusic</h4>
+        </div>
+        <div class="albums-container">
+            <div class="album-box kamikaze">
+                <img src="/image/Green-Day.png" alt="Green Day">
+                <div class="album-name">
+                    <h5>Kamikaze</h5>
+                    <span>Eminem - 2019</span>
+                </div>
+            </div>
+            <div class="album-box she">
+                <img src="/image/she.png" alt="She">
+                <div class="album-name">
+                    <h5>She</h5>
+                    <span>John Star - 2019</span>
+                </div>
+            </div>
+            <div class="album-box starboy">
+                <img src="/image/starboy.png" alt="StarBoy">
+                <div class="album-name">
+                    <h5>StarBoy</h5>
+                    <span>The Weekend - 2019</span>
+                </div>
+            </div>
+            <div class="album-box nikki">
+                <img src="/image/nikki.png" alt="Nikki">
+                <div class="album-name">
+                    <h5>Karma de javu</h5>
+                    <span>Niki Pope - 2019</span>
+                </div>
+            </div>
+            <div class="album-box she">
+                <img src="/image/she.png" alt="She">
+                <div class="album-name">
+                    <h5>She</h5>
+                    <span>John Star - 2019</span>
+                </div>
+            </div>
+            <div class="album-box starboy">
+                <img src="/image/starboy.png" alt="StarBoy">
+                <div class="album-name">
+                    <h5>StarBoy</h5>
+                    <span>The Weekend - 2019</span>
+                </div>
+                <div class="more-albums">
+                    <button class="more-albums-btn" type="button">
+                        <span class="more-albums-btn-icon"></span>
+                        Show 10 more <br>
+                        Albums
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="suggested-tracks" class="section-playlist">
+        <div class="title-box">
+            <h3 class="title">Suggested Tracks</h3>
+            <h4 class="sub-title">Based on the tracks you have listened previewsly</h4>
+        </div>
+        <ul class="playlist">
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">01</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Lose Yourself</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">02</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Love The Way You Lie</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">03</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Mockingbird</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">04</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Venom</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">05</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Love The Way You Lie</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">06</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Mockingbird</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">07</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Venom</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">08</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Love The Way You Lie</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">09</div>
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">Mockingbird</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Eminem</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item show-more">
+                <button class="show-more-btn" type="button"><span class="show-more-icon"></span>Show 41 more tracks
+                </button>
+            </li>
+        </ul>
+    </section>
+    <section id="top-playlist" class="section-albums">
+        <div class="title-box">
+            <h3 class="title">Month's Top Playlist</h3>
+            <h4 class="sub-title">Mood music collections by Imusic</h4>
+        </div>
+        <div class="albums-container">
+            <div class="album-box feel">
+                <img src="/image/feel.png" alt="Green Day">
+                <div class="album-name">
+                    <h5>Workout music</h5>
+                    <span>by Tony Stark - 2019</span>
+                </div>
+            </div>
+            <div class="album-box maxres">
+                <img src="/image/maxresdefault.png" alt="She">
+                <div class="album-name">
+                    <h5>Epic music</h5>
+                    <span>by John Star - 2019</span>
+                </div>
+            </div>
+            <div class="album-box feel">
+                <img src="/image/feel.png" alt="StarBoy">
+                <div class="album-name">
+                    <h5>Hear the Roar</h5>
+                    <span>by Tony Stark - 2019</span>
+                </div>
+            </div>
+            <div class="album-box road">
+                <img src="/image/road.png" alt="Nikki">
+                <div class="album-name">
+                    <h5>On the Road</h5>
+                    <span>by J.Jones - 2019</span>
+                </div>
+            </div>
+            <div class="album-box guitar">
+                <img src="/image/hd-guitar.png" alt="She">
+                <div class="album-name">
+                    <h5>Metal Hits</h5>
+                    <span>By Rockman - 2019</span>
+                </div>
+            </div>
+            <div class="album-box guitar">
+                <img src="/image/hd-guitar.png" alt="StarBoy">
+                <div class="album-name">
+                    <h5>Metal Hits</h5>
+                    <span>By Rockman - 2019</span>
+                </div>
+                <div class="more-albums">
+                    <button class="more-albums-btn" type="button">
+                        <span class="more-albums-btn-icon"></span>
+                        Show 27 more <br>
+                        Playlist
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="top-tracks" class="section-playlist">
+        <div class="title-box">
+            <h3 class="title">Top Tracks - Worldwide</h3>
+            <h4 class="sub-title">Month's top tracks on Imusic</h4>
+        </div>
+        <ul class="playlist">
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">01</div>
+                    <span class="rating-movement static"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">02</div>
+                    <span class="rating-movement static"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">03</div>
+                    <span class="rating-movement up"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">04</div>
+                    <span class="rating-movement up"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">05</div>
+                    <span class="rating-movement down"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">06</div>
+                    <span class="rating-movement static"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">07</div>
+                    <span class="rating-movement static"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">08</div>
+                    <span class="rating-movement favorite"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">09</div>
+                    <span class="rating-movement down"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item show-more">
+                <button class="show-more-btn" type="button"><span class="show-more-icon"></span>Show 41 more tracks
+                </button>
+            </li>
+        </ul>
+    </section>
+    <section id="top-albums" class="section-albums">
+        <div class="title-box">
+            <h3 class="title">New Released Albums</h3>
+            <h4 class="sub-title">Month's top albums on Imusic</h4>
+        </div>
+        <div class="albums-container">
+            <div class="album-box kamikaze">
+                <img src="/image/Green-Day.png" alt="Green Day">
+                <div class="album-name">
+                    <h5>Kamikaze</h5>
+                    <span>Eminem - 2019</span>
+                </div>
+            </div>
+            <div class="album-box she">
+                <img src="/image/she.png" alt="She">
+                <div class="album-name">
+                    <h5>She</h5>
+                    <span>John Star - 2019</span>
+                </div>
+            </div>
+            <div class="album-box starboy">
+                <img src="/image/starboy.png" alt="StarBoy">
+                <div class="album-name">
+                    <h5>StarBoy</h5>
+                    <span>The Weekend - 2019</span>
+                </div>
+            </div>
+            <div class="album-box nikki">
+                <img src="/image/nikki.png" alt="Nikki">
+                <div class="album-name">
+                    <h5>Karma de javu</h5>
+                    <span>Niki Pope - 2019</span>
+                </div>
+            </div>
+            <div class="album-box she">
+                <img src="/image/she.png" alt="She">
+                <div class="album-name">
+                    <h5>She</h5>
+                    <span>John Star - 2019</span>
+                </div>
+            </div>
+            <div class="album-box starboy">
+                <img src="/image/starboy.png" alt="StarBoy">
+                <div class="album-name">
+                    <h5>StarBoy</h5>
+                    <span>The Weekend - 2019</span>
+                </div>
+                <div class="more-albums">
+                    <button class="more-albums-btn" type="button">
+                        <span class="more-albums-btn-icon"></span>
+                        Show 10 more <br>
+                        Albums
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-playlist">
+        <div class="title-box">
+            <h3 class="title">Top Tracks - Worldwide</h3>
+            <h4 class="sub-title">Month's top tracks on Imusic</h4>
+        </div>
+        <ul class="playlist">
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">01</div>
+                    <span class="rating-movement static"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">02</div>
+                    <span class="rating-movement static"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">03</div>
+                    <span class="rating-movement up"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">04</div>
+                    <span class="rating-movement up"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">05</div>
+                    <span class="rating-movement down"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">06</div>
+                    <span class="rating-movement static"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">07</div>
+                    <span class="rating-movement static"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">08</div>
+                    <span class="rating-movement favorite"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item top-track-item">
+                <a href="#" class="play-btn">
+                    <div class="item-count">09</div>
+                    <span class="rating-movement down"></span>
+                    <img src="/image/smallImage.png" alt="singer image">
+                </a>
+                <div class="playlist-item-info">
+                    <h6 class="playlist-item-title">More Than a Feeling</h6>
+                    <div class="playlist-item-info-box">
+                        <span class="singer-name">Boston</span>
+                        <span class="time">/ 4:45</span>
+                    </div>
+                </div>
+                <div class="playlist-item-wishlist-box">
+                    <button class="wishlist-btn"></button>
+                </div>
+                <div class="playlist-item-settings-box">
+                    <button class="settings-btn"></button>
+                </div>
+            </li>
+            <li class="playlist-item show-more">
+                <button class="show-more-btn" type="button"><span class="show-more-icon"></span>Show 41 more tracks
+                </button>
+            </li>
+        </ul>
+    </section>
+    <section id="top-artists" class="section-albums">
+        <div class="title-box">
+            <h3 class="title">Month's Top Artists</h3>
+            <h4 class="sub-title">Month's top artists on Imusic</h4>
+        </div>
+        <div class="albums-container">
+            <div class="album-box eminem">
+                <img src="/image/Emin.png" alt="Eminem">
+                <div class="album-name v-center">
+                    <h5>Eminem</h5>
+                </div>
+            </div>
+            <div class="album-box david">
+                <img src="/image/dj-david.png" alt="DJ David">
+                <div class="album-name v-center">
+                    <h5>David Guetta</h5>
+                </div>
+            </div>
+            <div class="album-box john">
+                <img src="/image/John.png" alt="John Legend">
+                <div class="album-name v-center">
+                    <h5>StarBoy</h5>
+                </div>
+            </div>
+            <div class="album-box david">
+                <img src="/image/dj-david.png" alt="DJ David">
+                <div class="album-name v-center">
+                    <h5>David Guetta</h5>
+                </div>
+            </div>
+            <div class="album-box bone">
+                <img src="/image/Bone.png" alt="Bone">
+                <div class="album-name v-center">
+                    <h5>Rag'n'Bone Man</h5>
+                </div>
+            </div>
+            <div class="album-box bone">
+                <img src="/image/Bone.png" alt="Bone">
+                <div class="album-name v-center">
+                    <h5>Rag'n'Bone Man</h5>
+                </div>
+                <div class="more-albums">
+                    <button class="more-albums-btn" type="button">
+                        <span class="more-albums-btn-icon"></span>
+                        Show 7 more <br>
+                        Albums
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="player-panel">
+    <div class="music-range"></div>
+    <div class="player-info">
+        <div class="player-info-box">
+            <a href="#"><img src="/image/album5.svg" alt="player image"></a>
+            <div class="player-info-name">
+                <div class="song-name">Invasion of Privacy</div>
+                <div class="singer-name">Cardi B</div>
+            </div>
+        </div>
+        <div class="volume-bar">
+            <input type="range" min="1" max="100" value="50" class="volume-range">
+        </div>
+    </div>
+    <div class="player-controls">
+        <button type="button" class="shuffle-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18.297" height="14.371" viewBox="0 0 18.297 14.371">
+                <g id="shuffle_1_" data-name="shuffle (1)" transform="translate(0 -51.197)">
+                    <g id="Group_11435" data-name="Group 11435" transform="translate(0 51.197)">
+                        <g id="Group_11434" data-name="Group 11434" transform="translate(0 0)">
+                            <path id="Path_13787" data-name="Path 13787"
+                                  d="M18.106,54.028h0L15.49,51.383a.648.648,0,0,0-.924.016.667.667,0,0,0,0,.919l1.5,1.517h-3.65a4.607,4.607,0,0,0-4.574,4.628,3.29,3.29,0,0,1-3.267,3.306H.653a.661.661,0,0,0,0,1.322H4.574a4.607,4.607,0,0,0,4.574-4.628,3.29,3.29,0,0,1,3.267-3.306h3.65l-1.5,1.516a.667.667,0,0,0-.016.935.648.648,0,0,0,.924.016l.016-.016L18.1,54.963A.667.667,0,0,0,18.106,54.028Z"
+                                  transform="translate(0 -51.197)" fill="#fff"/>
+                        </g>
+                    </g>
+                    <g id="Group_11437" data-name="Group 11437" transform="translate(9.653 59.391)">
+                        <g id="Group_11436" data-name="Group 11436" transform="translate(0 0)">
+                            <path id="Path_13788" data-name="Path 13788"
+                                  d="M247.5,258.643h0l-2.471-2.471a.618.618,0,0,0-.873.873l1.417,1.417h-3.45a3.084,3.084,0,0,1-2.059-.786.618.618,0,0,0-.824.92,4.317,4.317,0,0,0,2.883,1.1h3.45l-1.416,1.416a.618.618,0,0,0,.858.889l.015-.015,2.471-2.471A.618.618,0,0,0,247.5,258.643Z"
+                                  transform="translate(-239.036 -255.998)" fill="#fff"/>
+                        </g>
+                    </g>
+                    <g id="Group_11439" data-name="Group 11439" transform="translate(0 53.83)">
+                        <g id="Group_11438" data-name="Group 11438" transform="translate(0 0)">
+                            <path id="Path_13789" data-name="Path 13789"
+                                  d="M7.207,120.373a4.317,4.317,0,0,0-2.883-1.1H.618a.618.618,0,1,0,0,1.235H4.324a3.084,3.084,0,0,1,2.059.786.618.618,0,0,0,.824-.92Z"
+                                  transform="translate(0 -119.272)" fill="#fff"/>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </button>
+        <button type="button" class="prev-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13.5" viewBox="0 0 15.5 19.014">
+                <g id="prev" transform="translate(-800.5 -10934.796)">
+                    <path id="Union_3" data-name="Union 3"
+                          d="M11.833,9.353.607,17.925a.357.357,0,0,1-.4.027A.436.436,0,0,1,0,17.572V.429A.437.437,0,0,1,.207.049a.356.356,0,0,1,.4.027L11.833,8.647a.456.456,0,0,1,0,.705Z"
+                          transform="translate(815.5 10953.31) rotate(180)" fill="none" stroke="#ffffff"
+                          stroke-width="1.5"></path>
+                    <path id="Line" d="M0,16.8V0" transform="translate(801 10953.31) rotate(180)" fill="none"
+                          stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.5"></path>
+                </g>
+            </svg>
+        </button>
+        <button type="button" class="play-btn d-none"></button>
+        <button type="button" class="pause-btn"></button>
+        <button type="button" class="next-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13.5" viewBox="0 0 17.313 19.011">
+                <g id="next" transform="translate(-891.188 -10933.799)">
+                    <path id="Union_3" data-name="Union 3"
+                          d="M13.312,8.647.683.075A.444.444,0,0,0,.233.049.427.427,0,0,0,0,.428V17.571a.428.428,0,0,0,.233.38.442.442,0,0,0,.45-.027L13.312,9.353a.425.425,0,0,0,0-.705Z"
+                          transform="translate(891.688 10934.31)" fill="none" stroke="#ffffff"
+                          stroke-width="1.5"></path>
+                    <path id="Line" d="M1.688,0V16.875" transform="translate(906.313 10935.435)" fill="none"
+                          stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.5"></path>
+                </g>
+            </svg>
+        </button>
+        <button type="button" class="repeat-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17.912" height="13.237" viewBox="0 0 17.912 13.237">
+                <path id="Path_13797" data-name="Path 13797"
+                      d="M15.5,58.553H1.912A1.822,1.822,0,0,1,0,56.837V49.543a1.822,1.822,0,0,1,1.912-1.716H5.856a.395.395,0,1,1,0,.785H1.912a.991.991,0,0,0-1.041.934v7.291a.991.991,0,0,0,1.041.934H15.5a.991.991,0,0,0,1.041-.934V49.543a.991.991,0,0,0-1.041-.934H9.758l1.46,1.311a.361.361,0,0,1,0,.552.474.474,0,0,1-.618,0L8.4,48.494a.361.361,0,0,1,0-.552l2.2-1.977a.469.469,0,0,1,.615,0,.361.361,0,0,1,0,.552l-1.46,1.311H15.5a1.822,1.822,0,0,1,1.912,1.716v7.294A1.824,1.824,0,0,1,15.5,58.553Z"
+                      transform="translate(0.25 -45.566)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+            </svg>
+        </button>
+    </div>
+    <div class="player-progress">
+        <div class="player-progress-time">
+            <div class="current">1:08</div>
+            /
+            <div class="duration">3:46</div>
+        </div>
+        <div class="right-controls">
+            <button class="settings-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="3" viewBox="0 0 15 3">
+                    <g id="Group_2644" data-name="Group 2644" transform="translate(6 -6)">
+                        <circle id="Ellipse_17556" data-name="Ellipse 17556" cx="1.5" cy="1.5" r="1.5"
+                                transform="translate(-6 6)" fill="#fff"/>
+                        <circle id="Ellipse_17557" data-name="Ellipse 17557" cx="1.5" cy="1.5" r="1.5"
+                                transform="translate(0 6)" fill="#fff"/>
+                        <circle id="Ellipse_17558" data-name="Ellipse 17558" cx="1.5" cy="1.5" r="1.5"
+                                transform="translate(6 6)" fill="#fff"/>
+                    </g>
+                </svg>
+            </button>
+            <button class="favorites-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19.487" height="19.479" viewBox="0 0 19.487 19.479">
+                    <g id="Group_5366" data-name="Group 5366" transform="translate(-0.887 0.095)">
+                        <path id="star"
+                              d="M18.718,19.345a1.891,1.891,0,0,0,.45-1.9,1.786,1.786,0,0,0-1.434-1.259l-4.163-.63a.652.652,0,0,1-.488-.37l-1.862-3.93a1.746,1.746,0,0,0-3.186,0L6.173,15.19a.651.651,0,0,1-.488.37l-4.163.63A1.786,1.786,0,0,0,.088,17.448a1.891,1.891,0,0,0,.449,1.9L3.55,22.4a.693.693,0,0,1,.187.6L3.025,27.32a1.875,1.875,0,0,0,.707,1.809,1.707,1.707,0,0,0,1.871.141l3.723-2.039a.626.626,0,0,1,.6,0l3.724,2.039a1.707,1.707,0,0,0,1.871-.141,1.875,1.875,0,0,0,.707-1.809L15.519,23a.693.693,0,0,1,.187-.6ZM14.407,23.2l.711,4.319a.675.675,0,0,1-.258.66.617.617,0,0,1-.683.051l-3.723-2.039a1.714,1.714,0,0,0-1.653,0L5.078,28.23a.617.617,0,0,1-.683-.052.676.676,0,0,1-.258-.66L4.849,23.2a1.9,1.9,0,0,0-.511-1.638L1.325,18.5a.681.681,0,0,1-.164-.692.643.643,0,0,1,.523-.459l4.163-.63A1.784,1.784,0,0,0,7.185,15.71L9.047,11.78a.637.637,0,0,1,1.162,0l1.862,3.929a1.784,1.784,0,0,0,1.337,1.012l4.163.63a.643.643,0,0,1,.523.459.681.681,0,0,1-.164.692l-3.012,3.059a1.9,1.9,0,0,0-.511,1.638Z"
+                              transform="translate(1.003 -10.224)" fill="#fff" stroke="#fff" stroke-width="0.2"/>
+                    </g>
+                </svg>
+            </button>
+            <button class="share-btn">
+                <svg id="share_1_" data-name="share (1)" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                     viewBox="0 0 20 20">
+                    <path id="Path_13782" data-name="Path 13782"
+                          d="M312.741,6.25a3.28,3.28,0,0,1-3.409-3.125,3.422,3.422,0,0,1,6.818,0A3.28,3.28,0,0,1,312.741,6.25Zm0-5A1.968,1.968,0,0,0,310.7,3.125a2.053,2.053,0,0,0,4.091,0A1.968,1.968,0,0,0,312.741,1.25Zm0,0"
+                          transform="translate(-296.15)" fill="#fff"/>
+                    <path id="Path_13783" data-name="Path 13783"
+                          d="M312.741,358.25a3.137,3.137,0,1,1,3.409-3.125A3.28,3.28,0,0,1,312.741,358.25Zm0-5a1.882,1.882,0,1,0,2.045,1.875A1.968,1.968,0,0,0,312.741,353.25Zm0,0"
+                          transform="translate(-296.15 -338.25)" fill="#fff"/>
+                    <path id="Path_13784" data-name="Path 13784"
+                          d="M3.409,182.25a3.137,3.137,0,1,1,0-6.25,3.137,3.137,0,1,1,0,6.25Zm0-5a1.882,1.882,0,1,0,0,3.75,1.882,1.882,0,1,0,0-3.75Zm0,0"
+                          transform="translate(0 -169.125)" fill="#fff"/>
+                    <path id="Path_13785" data-name="Path 13785"
+                          d="M120.372,101.218a.694.694,0,0,1-.593-.315.6.6,0,0,1,.255-.853l8.436-4.408a.712.712,0,0,1,.929.233.6.6,0,0,1-.255.853l-8.436,4.408a.732.732,0,0,1-.336.082Zm0,0"
+                          transform="translate(-114.589 -91.826)" fill="#fff"/>
+                    <path id="Path_13786" data-name="Path 13786"
+                          d="M128.827,277.207a.724.724,0,0,1-.336-.082l-8.436-4.408a.6.6,0,0,1-.255-.853.713.713,0,0,1,.929-.233l8.435,4.408a.6.6,0,0,1,.255.853.7.7,0,0,1-.593.316Zm0,0"
+                          transform="translate(-114.61 -260.941)" fill="#fff"/>
+                </svg>
+            </button>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19.005" viewBox="0 0 22 19.005">
+                    <g id="Group_6915" data-name="Group 6915" transform="translate(0 0)">
+                        <path id="Path_7579" data-name="Path 7579"
+                              d="M15.083,18.219l-3.444-5.886a.742.742,0,0,0-1.214,0L6.97,18.219a.694.694,0,0,0,.607,1.028h6.909a.676.676,0,0,0,.6-.343.654.654,0,0,0,0-.685Zm-6.3-.343,2.25-3.829,2.25,3.829Z"
+                              transform="translate(-0.031 -0.248)" fill="#fff"/>
+                        <path id="Path_7581" data-name="Path 7581"
+                              d="M21.91,12.076,15.052.353V.343A.692.692,0,0,0,14.444,0H7.556a.851.851,0,0,0-.239.059.62.62,0,0,1-.11.029.643.643,0,0,0-.259.255L.09,12.076a.7.7,0,0,0,0,.686l3.464,5.9a.676.676,0,0,0,.6.343.692.692,0,0,0,.607-.343L11,7.972l6.242,10.685a.692.692,0,0,0,.607.343.676.676,0,0,0,.6-.343l3.464-5.9a.7.7,0,0,0,0-.681ZM4.151,16.943,1.5,12.419,7.556,2.066l2.638,4.525ZM8.76,1.371h4.49L11,5.22Zm9.089,15.572L11.806,6.591l2.638-4.525L20.5,12.419Z"
+                              fill="#fff"/>
+                    </g>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="footer-app">
+            <h5 class="footer-title">Get IMusic App</h5>
+            <div class="footer-app-box">
+                <div class="footer-app-box-item">
+                    <a href="#" class="footer-app-box-item-link app-store"></a>
+                </div>
+                <div class="footer-app-box-item">
+                    <a href="#" class="footer-app-box-item-link google-play"></a>
+                </div>
+                <div class="footer-app-box-item">
+                    <a href="#" class="footer-app-box-item-link facebook"></a>
+                </div>
+                <div class="footer-app-box-item">
+                    <a href="#" class="footer-app-box-item-link web-store"></a>
+                </div>
+                <div class="footer-app-box-item">
+                    <a href="#" class="footer-app-box-item-link uploader"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-link">
+            <div class="footer-link-row">
+                <div class="footer-link-row-box">
+                    <h5 class="footer-title">Get IMusic App</h5>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">Telegram</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">Facebook Page</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">Facebook Group</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-link-row-box">
+                    <h5 class="footer-title">Find Out More</h5>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">Contact Us</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">F.A.Q</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">About Us</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">Imusic for Artists</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-link-row-box">
+                    <h5 class="footer-title">Legal Info</h5>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">Terms of Use</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">Privacy Policy</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">Copyright Policy</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">Cookie Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">VERSION 8.2.7 | © 2010 - 2019 Imusic LLC. All rights reserved.</div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js"
+        integrity="sha512-J0i98QZsJc12MkNEyDbinrKKoe7Jiw0rtryAXBesZrVwRkaqgP9QNCPyo5sMZ2jfiJQb+9RIE4I3xNl8fFqQIA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/dist/js/app.min.js"></script>
+</body>
+</html>

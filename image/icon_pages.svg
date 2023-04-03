@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.316" height="20.824" viewBox="0 0 20.316 20.824">
+  <g id="icon_pages" transform="translate(0.551 1.157)">
+    <path id="Path_13450" data-name="Path 13450" d="M.6,8.707H8.25a.6.6,0,1,0,0-1.207H.6a.6.6,0,1,0,0,1.207Z" transform="translate(-0.498 -1.566)" fill="#fff"/>
+    <path id="Path_13451" data-name="Path 13451" d="M.6,11.707H8.25a.6.6,0,1,0,0-1.207H.6a.6.6,0,0,0,0,1.207Z" transform="translate(-0.498 -2.062)" fill="#fff"/>
+    <path id="Path_13452" data-name="Path 13452" d="M.6,14.707H8.25a.6.6,0,1,0,0-1.207H.6a.6.6,0,1,0,0,1.207Z" transform="translate(-0.498 -2.557)" fill="#fff"/>
+    <path id="Path_13453" data-name="Path 13453" d="M.6,17.707H8.25a.6.6,0,0,0,0-1.207H.6a.6.6,0,0,0,0,1.207Z" transform="translate(-0.498 -3.051)" fill="#fff"/>
+    <path id="Path_13454" data-name="Path 13454" d="M.6,20.707H8.25a.6.6,0,1,0,0-1.207H.6a.6.6,0,1,0,0,1.207Z" transform="translate(-0.498 -3.454)" fill="#fff"/>
+    <path id="Path_13455" data-name="Path 13455" d="M20.445,7.5H14.409A1.372,1.372,0,0,0,13,8.828v3.036a1.372,1.372,0,0,0,1.409,1.328h6.036a1.372,1.372,0,0,0,1.409-1.328V8.828A1.372,1.372,0,0,0,20.445,7.5Z" transform="translate(-2.588 -1.306)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Path_13456" data-name="Path 13456" d="M20.445,16.5H14.409A1.372,1.372,0,0,0,13,17.828v3.036a1.372,1.372,0,0,0,1.409,1.328h6.036a1.372,1.372,0,0,0,1.409-1.328V17.828A1.372,1.372,0,0,0,20.445,16.5Z" transform="translate(-2.588 -3.05)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Path_13457" data-name="Path 13457" d="M.6,23.707H8.25a.6.6,0,1,0,0-1.207H.6a.6.6,0,0,0,0,1.207Z" transform="translate(-0.498 -4.04)" fill="#fff"/>
+    <path id="Path_13458" data-name="Path 13458" d="M19.132,0H9.367A1.39,1.39,0,0,0,8,1.408V3.421A1.39,1.39,0,0,0,9.367,4.829h9.765A1.39,1.39,0,0,0,20.5,3.421V1.408A1.39,1.39,0,0,0,19.132,0Z" transform="translate(-1.234 -0.102)" fill="none" stroke="#fff" stroke-width="1"/>
+    <circle id="Ellipse_19840" data-name="Ellipse 19840" cx="2.615" cy="2.615" r="2.615" transform="translate(-0.051 -0.657)" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

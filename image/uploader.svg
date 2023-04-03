@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="42" viewBox="0 0 120 42">
+  <g id="Group_12598" data-name="Group 12598" transform="translate(-344 -4014)">
+    <g id="Rectangle_3517" data-name="Rectangle 3517" transform="translate(344 4014)" fill="none" stroke="#e3e3e3" stroke-miterlimit="10" stroke-width="1.8">
+      <rect width="120" height="42" rx="7.739" stroke="none"/>
+      <rect x="0.9" y="0.9" width="118.2" height="40.2" rx="6.839" fill="none"/>
+    </g>
+    <text id="Become_an_Uploader" data-name="Become
+an Uploader" transform="translate(379 4033)" fill="#e3e3e3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Become</tspan><tspan x="0" y="14">an Uploader</tspan></text>
+    <g id="upload" transform="translate(296.113 4023)">
+      <g id="Group_230" data-name="Group 230" transform="translate(56.887 0)">
+        <path id="Path_1117" data-name="Path 1117" d="M72.655,159.88H70.621a.736.736,0,0,0,0,1.471h2.034a1.859,1.859,0,0,1,1.815,1.891V173.8a1.859,1.859,0,0,1-1.815,1.891H60.114A1.859,1.859,0,0,1,58.3,173.8V163.238a1.859,1.859,0,0,1,1.815-1.891h2.034a.736.736,0,0,0,0-1.471H60.114a3.3,3.3,0,0,0-3.227,3.363V173.8a3.3,3.3,0,0,0,3.227,3.363H72.66a3.3,3.3,0,0,0,3.227-3.363V163.238A3.3,3.3,0,0,0,72.655,159.88Z" transform="translate(-56.887 -151.162)" fill="#e3e3e3"/>
+        <path id="Path_1118" data-name="Path 1118" d="M144.929,5.677l3.033-3.161V14.4a.707.707,0,1,0,1.412,0V2.516l3.033,3.161a.7.7,0,0,0,.5.218.675.675,0,0,0,.5-.218.755.755,0,0,0,0-1.041L149.16.217a.684.684,0,0,0-1,0l-4.241,4.42a.755.755,0,0,0,0,1.041A.7.7,0,0,0,144.929,5.677Z" transform="translate(-139.171 0)" fill="#e3e3e3"/>
+      </g>
+    </g>
+  </g>
+</svg>

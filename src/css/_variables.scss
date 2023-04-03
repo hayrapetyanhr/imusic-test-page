@@ -1,0 +1,34 @@
+$black: #000000;
+$black-1: #060608;
+$black-2: #0F0F17;
+$black-3: #14161D;
+$dark-gray: #393A44;
+$gray: #99999F;
+$gray-1: #9B9C9E;
+$gray-2: #B1B2B8;
+$white: #ffffff;
+$blue: #2A86C7;
+$transparent: transparent;
+
+$all-colors: (
+        'black': $black,
+        'black-1': $black-1,
+        'black-2': $black-2,
+        'black-3': $black-3,
+        'dark-gray': $dark-gray,
+        'gray': $gray,
+        'gray-1': $gray-1,
+        'gray-2': $gray-2,
+        'white': $white,
+        'blue': $blue,
+        'transparent': $transparent,
+);
+
+@each $color, $value in $all-colors {
+  .color-#{$color} {
+    color: $value;
+  }
+  .bg-#{$color} {
+    background-color: $value;
+  }
+}
